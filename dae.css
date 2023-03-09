@@ -21,6 +21,9 @@ section {
   background-color: var(--background-color);
   width: 1920px;
   height: 1080px;
+  padding-top: 175px;
+  justify-content: start;
+  font-size: 35px;
 }
 
 section header {
@@ -87,7 +90,7 @@ img {
 }
 
 section.title-slide {
-  background-image: url('front.jpg');  
+  background-image: url('https://raw.githubusercontent.com/avadae/marp-themes/main/img/wallpaper01.jpg');  
   background-color: var(--main-color);
   color: var(--title-slide-text-color);
   padding: 0px;
