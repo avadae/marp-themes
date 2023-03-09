@@ -1,0 +1,108 @@
+/*!
+ * @theme dae
+ * @author ava
+ * @auto-scaling fittingHeader, math, code
+ * @size 16:9 1920px 1080px
+ */
+
+@import 'default';
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+:root {
+  --text-color: #222222;
+  --title-color: #ff1234;
+  --background-color: #ebebeb;
+  --title-slide-text-color : #ebebeb;
+}
+
+section {
+  color: var(--text-color);
+  background-color: var(--background-color);
+  width: 1920px;
+  height: 1080px;
+}
+
+section header {
+  color: var(--text-color);
+  background: linear-gradient(110deg, var(--title-color), 20px,#0000 0); 
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size:25pt;
+  padding-left: 1.5%;
+}
+
+section::after {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--title-color);
+  background: linear-gradient(-70deg, var(--text-color), 70px,#0000 0); 
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  padding-bottom: 18px;
+  padding-right: 15px;
+  padding-top: 150px;
+  padding-left: 100px;
+}
+
+section footer {
+  color: var(--title-color);
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  padding:10px;
+  padding-left:2%;
+}
+
+h1 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: normal;
+  color:var(--title-color) ;
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  font-size: 50pt;
+}
+
+/* to add a center option to images */
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  filter: drop-shadow(0px 0px 10px #555);
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+section.title-slide {
+  background-image: url('front.jpg');  
+  background-color: var(--main-color);
+  color: var(--title-slide-text-color);
+  padding: 0px;
+  display: block;
+  grid-template: initial;
+}
+
+section.title-slide h1 {
+  color: var(--title-slide-text-color);
+  font-size: 60px;
+  position: absolute;
+  top: 900px;
+  margin-left: 15%;
+  width: 70%;
+  text-align: center;
+  background-color: rgba(10,10,10,0.6);
+}
+
