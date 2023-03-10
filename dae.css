@@ -1,7 +1,7 @@
 /*!
  * @theme dae
  * @author ava
- * @auto-scaling fittingHeader, math, code
+ * @auto-scaling none
  * @size 16:9 1920px 1080px
  */
 
@@ -27,13 +27,14 @@ section {
 }
 
 section header {
+  font-family: 'Chakra Petch', sans-serif;
   color: var(--text-color);
   background: linear-gradient(110deg, var(--title-color), 20px,#0000 0); 
   position: absolute;
   left: 0px;
   top: 0px;
   font-size:25pt;
-  padding-left: 1.5%;
+  padding-left: 30px;
 }
 
 section::after {
@@ -68,8 +69,8 @@ h1 {
   font-weight: normal;
   color:var(--title-color) ;
   position: absolute;
-  top: 5%;
-  left: 2%;
+  top: 50px;
+  left: 35px;
   font-size: 50pt;
 }
 
