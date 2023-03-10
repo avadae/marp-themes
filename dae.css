@@ -87,7 +87,7 @@ img[alt~="center"] {
 }
 
 section.title-slide {
-  background-image: url('https://raw.githubusercontent.com/avadae/marp-themes/main/img/wallpaper02.jpg');  
+  background-image: url('https://raw.githubusercontent.com/avadae/marp-themes/main/img/wallpaper01.jpg');  
   background-color: var(--main-color);
   color: var(--title-slide-text-color);
   padding: 0px;
@@ -106,3 +106,22 @@ section.title-slide h1 {
   background-color: rgba(10,10,10,0.6);
 }
 
+section.title-slide-v2023 {
+  background-image: url('https://raw.githubusercontent.com/avadae/marp-themes/main/img/wallpaper02.jpg');  
+  background-color: var(--main-color);
+  color: var(--title-slide-text-color);
+  padding: 0px;
+  display: block;
+  grid-template: initial;
+}
+
+section.title-slide-v2023 h1 {
+  color: var(--title-slide-text-color);
+  font-size: 60px;
+  position: absolute;
+  top: 800px;
+  margin-left: 15%;
+  width: 70%;
+  text-align: center;
+  background-color: rgba(10,10,10,0.6);
+}
