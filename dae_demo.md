@@ -2,9 +2,16 @@
 marp: true
 theme: dae
 ---
-<!-- _class: title-slide-v2023   -->
+<!-- _class: title-slide   -->
 
 # Title slide
+
+<!-- footer: Demo presentation -->
+
+---
+<!-- _class: title-slide-v2023   -->
+
+# Title slide 2023
 
 <!-- footer: Demo presentation -->
 
