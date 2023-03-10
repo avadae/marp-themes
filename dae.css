@@ -72,6 +72,8 @@ h1 {
   top: 50px;
   left: 35px;
   font-size: 50pt;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 /* to add a center option to images */
@@ -100,8 +102,9 @@ section.title-slide h1 {
   font-size: 60px;
   position: absolute;
   top: 900px;
-  margin-left: 15%;
-  width: 70%;
+  left: 0px;
+  margin-left: 360px;
+  width: 1200px;
   text-align: center;
   background-color: rgba(10,10,10,0.6);
 }
@@ -120,8 +123,9 @@ section.title-slide-v2023 h1 {
   font-size: 60px;
   position: absolute;
   top: 800px;
-  margin-left: 15%;
-  width: 70%;
+  left:0px;
+  margin-left:360px;
+  width: 1200px;
   text-align: center;
   background-color: rgba(10,10,10,0.6);
 }
