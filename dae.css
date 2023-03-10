@@ -95,6 +95,15 @@ section.title-slide {
   grid-template: initial;
 }
 
+section.title-slide-v2 {
+  background-image: url('https://raw.githubusercontent.com/avadae/marp-themes/main/img/wallpaper02.jpg');  
+  background-color: var(--main-color);
+  color: var(--title-slide-text-color);
+  padding: 0px;
+  display: block;
+  grid-template: initial;
+}
+
 section.title-slide h1 {
   color: var(--title-slide-text-color);
   font-size: 60px;
