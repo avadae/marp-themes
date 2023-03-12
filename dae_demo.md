@@ -83,3 +83,8 @@ main:
 rpb = framepointer
 eax = register
 -->
+
+---
+# SVG Test
+
+![center drop-shadow:0,0,10px,#000](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Bananas.svg/1024px-Bananas.svg.png)

@@ -82,6 +82,10 @@ img[alt~="center"] {
   margin: 0 auto;
 }
 
+img {
+  background-color: var(--main-color);
+}
+
 .columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
