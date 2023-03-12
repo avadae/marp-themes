@@ -113,6 +113,20 @@ section.title-slide h1 {
   background-color: rgba(10,10,10,0.6);
 }
 
+section.title-slide h2 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: normal;
+  color: var(--main-color);
+  background: linear-gradient(110deg, var(--title-color), 280px,#0000 0); 
+  font-size: 60px;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  width: 1200px;
+  padding: 10px;
+  padding-left:20px;
+}
+
 section.title-slide-v2023 {
   background-image: url('https://raw.githubusercontent.com/avadae/marp-themes/main/img/wallpaper02.jpg');  
   background-color: var(--main-color);
@@ -132,4 +146,18 @@ section.title-slide-v2023 h1 {
   width: 1200px;
   text-align: center;
   background-color: rgba(10,10,10,0.6);
+}
+
+section.title-slide-v2023 h2 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: normal;
+  color: var(--main-color);
+  background: linear-gradient(110deg, var(--title-color), 280px,#0000 0); 
+  font-size: 60px;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  width: 1200px;
+  padding: 10px;
+  padding-left:20px;
 }
