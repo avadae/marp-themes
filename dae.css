@@ -161,3 +161,26 @@ section.title-slide-v2023 h2 {
   padding: 10px;
   padding-left:20px;
 }
+
+section strong{
+  color: var(--title-color);
+}
+section h1 strong{
+  color: var(--title-color);
+  font-weight: 800;
+}
+section h6 strong{
+  color: var(--title-color);
+}
+section h2 strong{
+  color: var(--title-color);
+}
+section h3 strong{
+  color: var(--title-color);
+}
+section h4 strong{
+  color: var(--title-color);
+}
+section h5 strong{
+  color: var(--title-color);
+}
