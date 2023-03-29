@@ -1,7 +1,7 @@
 /*!
  * @theme dae
  * @author ava
- * @auto-scaling none
+ * @auto-scaling fittingHeader,math
  * @size 16:9 1920px 1080px
  */
 
@@ -71,6 +71,7 @@ h1 {
   position: absolute;
   top: 50px;
   left: 35px;
+  width: 95%;
   font-size: 50pt;
   padding-top: 5px;
   padding-bottom: 5px;
