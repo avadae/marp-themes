@@ -163,6 +163,41 @@ section.title-slide-v2023 h2 {
   padding-left:20px;
 }
 
+section.title-slide-v2017 {
+  background-image: url('https://raw.githubusercontent.com/avadae/marp-themes/main/img/wallpaper00.jpg');  
+  background-color: var(--main-color);
+  color: var(--title-slide-text-color);
+  padding: 0px;
+  display: block;
+  grid-template: initial;
+}
+
+section.title-slide-v2017 h1 {
+  color: var(--title-slide-text-color);
+  font-size: 60px;
+  position: absolute;
+  top: 800px;
+  left:0px;
+  margin-left:360px;
+  width: 1200px;
+  text-align: center;
+  background-color: rgba(10,10,10,0.6);
+}
+
+section.title-slide-v2017 h2 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: normal;
+  color: var(--main-color);
+  background: linear-gradient(110deg, var(--title-color), 280px,#0000 0); 
+  font-size: 60px;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  width: 1200px;
+  padding: 10px;
+  padding-left:20px;
+}
+
 section strong{
   color: var(--title-color);
 }
