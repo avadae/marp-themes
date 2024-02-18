@@ -103,3 +103,35 @@ eax = register
 # SVG Test
 
 ![center drop-shadow:0,0,10px,#000](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Bananas.svg/1024px-Bananas.svg.png)
+
+--- 
+
+# Class test
+
+On what objects do we call this Update method?
+
+```cpp
+namespace dae
+{
+  class Texture2D;
+  class GameObject 
+  {
+    Transform m_transform{};
+    std::string m_name{};
+    std::shared_ptr<Texture2D> m_texture{};
+  public:
+    virtual void Update();
+    virtual void Render() const;
+
+    void SetTexture(const std::string& filename);
+    void SetPosition(float x, float y);
+
+    GameObject() = default;
+    virtual ~GameObject();
+    GameObject(const GameObject& other) = delete;
+    GameObject(GameObject&& other) = delete;
+    GameObject& operator=(const GameObject& other) = delete;
+    GameObject& operator=(GameObject&& other) = delete;
+  };
+}
+```
