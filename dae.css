@@ -220,3 +220,7 @@ section h4 strong{
 section h5 strong{
   color: var(--title-color);
 }
+
+pre {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
