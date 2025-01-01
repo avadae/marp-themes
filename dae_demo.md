@@ -43,6 +43,9 @@ A centered image :
 
 ![center drop-shadow:0,0,10px,#000](https://gameprogrammingpatterns.com/images/data-locality-cache-line.png)
 
+<sub>https://baptiste-wicht.com/posts/2017/09/cpp11-performance-tip-when-to-use-std-pow.html</sub>
+
+
 <!-- Some comments, these will be present in the pptx too if you export this. -->
 ---
 ![bg right:50% width:70% drop-shadow:0,0,10px,#000](https://en.wikichip.org/w/images/thumb/8/86/haswell_%28octa-core%29_die_shot.png/650px-haswell_%28octa-core%29_die_shot.png)

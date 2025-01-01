@@ -3,5 +3,5 @@
       "https://raw.githubusercontent.com/avadae/marp-themes/main/dae.css",
       "./dae.css",
     ],
-    "markdown.marp.enableHtml": true
+    "markdown.marp.html": "all"
 }
