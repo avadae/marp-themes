@@ -24,6 +24,7 @@ section {
   padding-top: 175px;
   justify-content: start;
   font-size: 35px;
+  display: flex;
 }
 
 section header {
@@ -61,7 +62,14 @@ section footer {
   left: 0px;
   bottom: 0px;
   padding:10px;
-  padding-left:2%;
+  padding-left:140px;
+  padding-right:2%;
+
+  background-image: url('https://raw.githubusercontent.com/avadae/marp-themes/main/img/dae_black.png');  
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+
 }
 
 h1 {
@@ -223,8 +231,4 @@ section h5 strong{
 
 pre {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-}
-
-section {
-  display: flex;
 }
