@@ -61,8 +61,8 @@ section footer {
   position: absolute;
   left: 0px;
   bottom: 0px;
-  padding:10px;
-  padding-left:140px;
+  padding:5px;
+  padding-left:100px;
   padding-right:2%;
 
   background-image: url('https://raw.githubusercontent.com/avadae/marp-themes/main/img/dae_black.png');  
